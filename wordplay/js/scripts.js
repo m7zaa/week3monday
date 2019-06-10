@@ -13,6 +13,10 @@ $(document).ready(function() {
       }
     });
     console.log(filteredArray);
+    sortedArray = filteredArray.sort();
+    console.log(sortedArray);
+    jointedArray = sortedArray.concat(wordArray);
+    console.log(jointedArray);
     event.preventDefault();
   });
 });
